@@ -1,11 +1,22 @@
 # Resumos para aulas de redes
 
+## Repositório feito para estudos da matéria referente à prova 3 de Redes de Computadores e para a resolução dos exercícios da lista 3.
+
 ![GIF de redes](https://media.tenor.com/8plhmX7JP9YAAAAC/study.gif)
 
-## Resumos prova 3
+### Resumos prova 3
+
+
+### Sumário
+
+1. [Resumo de Enlace](#enlace)
+2. [Resumo de camada Física](#física)
+3. [Resolução dos exercícios da lista 3](#lista)
+
 
 
 ## Enlace
+
 # Camada de Enlace
 
 ## Questões de Projeto
@@ -74,7 +85,9 @@
 - Confiável, baixo custo e fácil manutenção.
 - Base para LANs modernas.
 
+
 ## Física
+
 # Camada Física
 
 ## Conceitos Fundamentais
@@ -104,7 +117,9 @@
 ## Exemplos de Aplicação
 - Redes de alta velocidade, transmissão em larga escala.
 
+
 ## Lista
+
 # Resolução da Lista de Exercício 03
 
 ## 1. Condutor de sinais com fio de cobre e conectores BNC/RCA
