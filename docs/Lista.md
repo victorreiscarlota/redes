@@ -21,9 +21,8 @@
 
 ## 5. Algoritmo de Janelas Deslizantes
 **Repetição Seletiva**:
-- O transmissor e receptor mantêm janelas maiores que 1.
-- Retransmite apenas os quadros com erro, otimizando o tráfego.
-- ACKs e NAKs ajudam a gerenciar as confirmações.
+
+O Go-Back-N (GBN) é um protocolo de janelas deslizantes utilizado na camada de enlace para controle de fluxo e erros, garantindo que os quadros sejam entregues corretamente. Nesse protocolo, o transmissor mantém uma janela de envio com tamanho 𝑁, que limita o número de quadros que podem ser enviados sem confirmação do receptor (ACK). Os quadros são enviados sequencialmente, e, caso o transmissor não receba um ACK dentro de um tempo limite, ele retransmite todos os quadros a partir daquele que não foi confirmado, mesmo que outros tenham sido enviados corretamente. O receptor, por sua vez, apenas aceita quadros na sequência esperada e descarta os fora de ordem. Esse mecanismo simplifica o controle de erros, mas pode resultar em maior retransmissão quando ocorrem falhas.
 
 ## 6. Verdadeiro ou Falso
 - (V) O tamanho do quadro é definido pelo hardware.
